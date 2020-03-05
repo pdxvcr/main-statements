@@ -1,0 +1,35 @@
+#IF STATEMENT EXMAPLE
+a = int(input("enter a number "))
+b = int(0)
+print ("you entered ", a)
+if a > b:
+    print("it is positive integer")
+elif a==b:
+    print("this integer is equal to zero")
+else:
+    print("it is negative integer")
+
+#WHILE STATEMENT EXAMPLE
+a=0
+while (a<10):
+    print (a)
+    a=a+1
+else: print("done")
+
+
+
+#FOR STATEMENT EXAMPLE
+string = "beginning of message"
+for x in string:
+    print(x)
+else:
+    print("end of message")
+
+list1 = ["start", 18, 3]
+for x in list1:
+    print(x)
+
+#RANGE BUILT-IN FUNCTION EXAMPLE
+for i in range(0,24,2):
+    print(i)
+
